@@ -69,13 +69,13 @@ class App extends React.Component {
                 </div>
               </div>
 
-              <div className="media-element  media-video">
+              <div className="media-element media-video">
                 <div className="media-og-text">
                   <div className="img" style={{backgroundImage: "url(\"/img/laerer.JPG\")", visibility: videoimgvisibility}}>
                     <img className="play-icon" src="/img/play.png"/>
                   </div>
                   <div className="media-player" id="video">
-                    <Player src="/img/LesothoLiten.mp4" onPlay={() => this.setState({playing: true})}/>
+                    <Player src="/video/LesothoLiten.mp4" onPlay={() => this.setState({playing: true})}/>
                   </div>
                   <p className="info info-1 right">{`“Jeg vil ikke bare være et verktøy for å føde barn”`}</p>
                   <p className="info info-2 right">{`Lærerinnen i Lesotho`}</p>
@@ -111,13 +111,19 @@ class App extends React.Component {
                   <p className="info info-2 left">Dennis - Barnehjemmet i Baja</p>
                 </div>
               </div>
-              <div className="media-element" >
+              <div className="media-element media-video" >
                 <div className="media-og-text">
-                  <div className="img" style={{backgroundImage: "url(\"/img/Syrer2.jpg\")"}}>
+                  <div className="img" style={{backgroundImage: "url(\"/img/Syrer2.jpg\")", visibility: videoimgvisibility}}>
                     <img className="play-icon" src="/img/play.png"/>
+                  </div>
+                  <div className="media-player" id="video">
+                    <Player src="/video/SyrerLiten.mp4" onPlay={() => this.setState({playing: true})}/>
                   </div>
                   <p className="info info-1 right">{`“Det beste som kan skje er å få et liv. Jeg trenger ikke noe annet.”`}</p>
                   <p className="info info-2 right">Ramin - På flukt fra Syria</p>
+                </div>
+                <div className="media-controls">
+                  <PlayPause />
                 </div>
               </div>
             </div>
