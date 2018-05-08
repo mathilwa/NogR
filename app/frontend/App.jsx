@@ -58,6 +58,10 @@ class App extends React.Component {
                   <p className="info info-1 right">{`“Det tar tre timer å gå fra landsbyen min til bakken, men det er verdt det.”`}</p>
                   <p className="info info-2 right">Graham - 13 år gammel snowboarder fra Sør-Afrika</p>
                 </div>
+                <div className="her-er-vi">
+                  Nå er vi i Leshoto. Følg reisen på Snapchat
+                  <img src="/img/snapchat.png"/>
+                </div>
               </div>
               <div className="media-element">
                 <div className="media-og-text">
