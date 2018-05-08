@@ -144,12 +144,6 @@ img {
     top: 68px;
 }
 
-@media (max-width: 600px) {
-    body {
-        background-color: red;
-    }
-}
-
 @media (min-width: 1400px) {
     .media-element {
         min-height: 700px;
