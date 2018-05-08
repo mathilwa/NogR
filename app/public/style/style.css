@@ -124,7 +124,7 @@ img {
 }
 
 .her-er-vi {
-    padding: 70px 250px 40px 40px;
+    padding: 70px 200px 40px 40px;
     border-left: 1px solid;
     border-bottom: 1px solid;
     border-left-color: #f9e14c;
@@ -133,6 +133,7 @@ img {
     font-size: 32px;
     display: inline-block;
     position: relative;
+    margin-left: 20px;
 }
 
 .her-er-vi img {
