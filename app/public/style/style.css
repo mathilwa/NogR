@@ -29,6 +29,7 @@ body {
 
 .media-video .img {
     width: 60%;
+    min-height: 500px;
 }
 
 .media-video .info-2 {
@@ -43,6 +44,7 @@ video {
 img {
     width: 60%;
     height: auto;
+    display: inline-block;
 }
 
 .img {
@@ -50,6 +52,7 @@ img {
     background-size: cover;
     min-height: inherit;
     width: 60%;
+    text-align: center;
 }
 
 .img.right {
@@ -108,8 +111,8 @@ img {
 .play-icon {
     height: 80px;
     width: 80px;
-    top: 140px;
-    left: 50%;
+    position: absolute;
+    top: 250px;
 }
 
 .media-controls button {

@@ -52,15 +52,18 @@ class App extends React.Component {
             <div className="media">
               <div className="media-element left">
                 <div className="media-og-text">
-                  <div className="img" style={{backgroundImage: "url(\"/img/Snowboarder1.png\")"}}></div>
-                  <img className="play-icon" src="/img/Play-Button-Transparent-PNG.png"/>
+                  <div className="img" style={{backgroundImage: "url(\"/img/Snowboarder1.png\")"}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <p className="info info-1 right">{`“Det tar tre timer å gå fra landsbyen min til bakken, men det er verdt det.”`}</p>
                   <p className="info info-2 right">Graham - 13 år gammel snowboarder fra Sør-Afrika</p>
                 </div>
               </div>
               <div className="media-element">
                 <div className="media-og-text">
-                  <div className="img right" style={{backgroundImage: "url(\"/img/Crackheads.jpg\")"}}></div>
+                  <div className="img right" style={{backgroundImage: "url(\"/img/Crackheads.jpg\")"}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <p className="info info-1 left">{`“Her i Detroit prøver “crackheads” å ta over byen. De skremmer ikke meg!”`}</p>
                   <p className="info info-2 left">John - En manns kamp for normalitet</p>
                 </div>
@@ -68,7 +71,9 @@ class App extends React.Component {
 
               <div className="media-element  media-video">
                 <div className="media-og-text">
-                  <div className="img" style={{backgroundImage: "url(\"/img/laerer.JPG\")", visibility: videoimgvisibility}}></div>
+                  <div className="img" style={{backgroundImage: "url(\"/img/laerer.JPG\")", visibility: videoimgvisibility}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <div className="media-player" id="video">
                     <Player src="/video/Lesotho.mp4" onPlay={() => this.setState({playing: true})}/>
                   </div>
@@ -82,27 +87,35 @@ class App extends React.Component {
 
               <div className="media-element" >
                 <div className="media-og-text">
-                  <div className="img right" style={{backgroundImage: "url(\"/img/Lucha1.jpg\")"}}></div>
+                  <div className="img right" style={{backgroundImage: "url(\"/img/Lucha1.jpg\")"}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <p className="info info-1 left">{`“Selvfølgelig er jeg redd. Men i ringen og foran publikum er jeg proff.”`}</p>
                 </div>
               </div>
               <div className="media-element">
                 <div className="media-og-text">
-                  <div className="img" style={{backgroundImage: "url(\"/img/Nafissa.jpg\")"}}></div>
+                  <div className="img" style={{backgroundImage: "url(\"/img/Nafissa.jpg\")"}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <p className="info info-1 right">{`“Jeg visste ikke hva sorg virkelig var før mamma og pappa ble drept på samme dag”`}</p>
                   <p className="info info-2 right">Nafissa - Fra Somalia til Norge</p>
                 </div>
               </div>
               <div className="media-element">
                 <div className="media-og-text">
-                  <div className="img right" style={{backgroundImage: "url(\"/img/Barnehjemmet5.JPG\")"}}></div>
+                  <div className="img right" style={{backgroundImage: "url(\"/img/Barnehjemmet5.JPG\")"}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <p className="info info-1 left">{`“De virkelige heltene er mødrene og barna deres”`}</p>
                   <p className="info info-2 left">Dennis - Barnehjemmet i Baja</p>
                 </div>
               </div>
               <div className="media-element" >
                 <div className="media-og-text">
-                  <div className="img" style={{backgroundImage: "url(\"/img/Syrer2.jpg\")"}}></div>
+                  <div className="img" style={{backgroundImage: "url(\"/img/Syrer2.jpg\")"}}>
+                    <img className="play-icon" src="/img/play.png"/>
+                  </div>
                   <p className="info info-1 right">{`“Det beste som kan skje er å få et liv. Jeg trenger ikke noe annet.”`}</p>
                   <p className="info info-2 right">Ramin - På flukt fra Syria</p>
                 </div>
