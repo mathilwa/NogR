@@ -42,6 +42,10 @@ module.exports = {
           name: '[path][name].[hash].[ext]',
         },
       },
+      {
+        test: /\.(mov|mp4)$/,
+        loader: 'file-loader',
+      },
     ],
   },
   plugins: [
@@ -55,6 +59,10 @@ module.exports = {
       {
         from: path.resolve(__dirname, 'app/public/img/'),
         to: 'img/',
+      },
+      {
+        from: path.resolve(__dirname, 'app/public/video/'),
+        to: 'video/',
       },
     ]),
     new ExtractTextPlugin('style/style.bundle.css', {
