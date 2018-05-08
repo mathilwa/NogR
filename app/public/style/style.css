@@ -147,6 +147,14 @@ img {
     .img {
         width: 1160px;
     }
+
+    .play-icon {
+        top: 300px;
+    }
+
+    .media-video .play-icon {
+        top: 220px;
+    }
 }
 
 @media (min-width: 2000px) {
