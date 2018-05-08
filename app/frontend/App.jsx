@@ -34,9 +34,6 @@ class App extends React.Component {
   render () {
     const { PlayPause } = controls;
     const autoplay = this.state.scrollPosisjon > this.state.videoPosisjon;
-    console.log('video', this.state.videoPosisjon);
-    console.log('sxcroll', this.state.scrollPosisjon);
-    console.log(this.props);
     const videoimgvisibility = this.state.playing ? 'hidden' : 'visible';
 
     return (

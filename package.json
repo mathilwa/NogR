@@ -13,6 +13,7 @@
     "build": "rimraf dist && webpack -p --define process.env.NODE_ENV='\"production\"'"
   },
   "dependencies": {
+    "aws-sdk": "^2.234.1",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^0.28.9",
     "es6-promise": "^4.2.4",
