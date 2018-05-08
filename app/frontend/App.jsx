@@ -75,7 +75,7 @@ class App extends React.Component {
                     <img className="play-icon" src="/img/play.png"/>
                   </div>
                   <div className="media-player" id="video">
-                    <Player src="/video/Lesotho.mp4" onPlay={() => this.setState({playing: true})}/>
+                    <Player src="/video/LesothoLiten.mp4" onPlay={() => this.setState({playing: true})}/>
                   </div>
                   <p className="info info-1 right">{`“Jeg vil ikke bare være et verktøy for å føde barn”`}</p>
                   <p className="info info-2 right">{`Lærerinnen i Lesotho`}</p>
