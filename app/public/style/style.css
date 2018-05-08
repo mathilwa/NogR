@@ -7,11 +7,6 @@ body {
     background-color: black;
 }
 
-/*#app {*/
-/*width: 70%;*/
-/*margin: 0 auto;*/
-/*}*/
-
 .meny {
     display: flex;
     flex-direction: row;
@@ -132,5 +127,34 @@ img {
 @media (max-width: 600px) {
     body {
         background-color: red;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: blue;
+    }
+
+    .media-element {
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: grey;
+    }
+
+    #app {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .media-element {
+        height: 700px;
+    }
+
+    .img {
+        width: 1160px;
     }
 }
