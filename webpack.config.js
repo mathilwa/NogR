@@ -23,7 +23,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['env', 'react'],
+          presets: ['env', 'react', 'es2015'],
         },
       },
       {
@@ -38,9 +38,6 @@ module.exports = {
       {
         test: /\.(jpg|png|svg)$/,
         loader: 'file-loader',
-        options: {
-          name: '[path][name].[hash].[ext]',
-        },
       },
       {
         test: /\.(mov|mp4)$/,

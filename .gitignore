@@ -7,6 +7,6 @@ hs_err_pid*
 *.iml
 src/target/
 node_modules/
-dist/
+
 package-lock.json
 
