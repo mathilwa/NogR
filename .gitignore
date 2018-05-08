@@ -8,4 +8,5 @@ hs_err_pid*
 src/target/
 node_modules/
 dist/
+package-lock.json
 
